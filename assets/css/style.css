@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../img/bg-login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    /* background-color: aliceblue !important; */
+    padding: 50px;
+    border-radius: 0.3rem;
+
+    background: rgba( 112, 111, 111, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.form-label{
+    color: white !important;
+}
+.btn{
+    background-color: orange !important;
+    color: white;
+    font-weight: 600;
+}
